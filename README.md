@@ -1,4 +1,4 @@
 webstack-configs
 ================
 
-Default configuration for varnish, nginx &amp; php-fpm
+Default configuration for magento, varnish, nginx &amp; php-fpm for a Magento stack
