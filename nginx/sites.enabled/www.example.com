@@ -109,7 +109,7 @@ server {
 
   location ~ \.php$ {
     fastcgi_param MAGE_IS_DEVELOPER_MODE 0;
-    fastcgi_param MAGE_RUN_TYPE website;
+    fastcgi_param MAGE_RUN_TYPE store;
     fastcgi_param MAGE_RUN_CODE $magecode;
     include /etc/nginx/nginx-fpm.conf;
     fastcgi_param  HTTPS on;
